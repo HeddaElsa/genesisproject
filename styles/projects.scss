@@ -1,0 +1,60 @@
+@import "screen-fonts";
+@import "header";
+
+.section1 {
+    display: flex;
+    flex-direction: row;
+    align-items:flex-start;
+    justify-content: space-between;
+    margin-top: 100px;
+    width: 100%;
+    gap: 140px;
+}
+
+.section1__textcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 39px;
+    width: 100%;
+    max-width: 635px;
+}
+
+.section1__table {
+    align-self: flex-end;
+}
+
+.imagepart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 45px;
+    margin-top: 61px;
+}
+
+.imagepart__image{
+    width: 100%;
+    object-fit: cover;
+    max-height: 700px;
+    overflow: hidden;
+}
+
+.imagepart__image img {
+    width: 100%;
+}
+
+.projectgallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-gap: 30px;
+    margin-top: 45px;
+    width: 100%;
+    overflow: hidden;
+}
+
+@import "footer";
+
+@import "tables";

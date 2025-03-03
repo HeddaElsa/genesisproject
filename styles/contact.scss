@@ -1,0 +1,55 @@
+@import "screen-fonts";
+@import "header";
+
+.formsection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 110px;
+    gap: 160px;
+}
+
+.formsection__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 22px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 25px;
+}
+
+.form__input {
+    border: none;
+    border-bottom: 0.2px solid;
+    border-color: black;
+    min-width: 475px;
+}
+
+.formsection button {
+    border: none;
+    width: 125px;
+    height: 50px;
+    background-color: #4A4FF2;
+    color: #FFFFFF;
+}
+
+.mapcontainer {
+    width: 100%;
+    object-fit: cover;
+    margin-top: 105px;
+}
+
+.mapcontainer img {
+    width: 100%;
+}
+
+@import "footer";
